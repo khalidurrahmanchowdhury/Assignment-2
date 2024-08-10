@@ -1,0 +1,344 @@
+
+/* Font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+#header-section{
+   
+    background: linear-gradient(120deg, rgba(0, 0, 0, 0.644), rgb(0, 0, 0) 100%);
+    margin-bottom: 40px;    
+}
+/* Nav */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 100px;    
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 20px; 
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+}
+.navbar-ul{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+    padding: 8px 10px 8px 3px;
+}
+.navbar-title{
+    font-family: "Poppins", sans-serif;
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: rgb(230, 83, 60);
+}
+.header-container{
+    display: flex;
+}
+
+.checkbtn{
+    font-size: 30px;
+    color: #ffffff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+.rightside1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.list-a-home{
+    border-radius: 46px;
+    background: rgb(230, 83, 60);
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 4px;
+}
+.header-title{
+    font-family: Inter;
+    font-size: 4.875rem;
+    font-weight: 900;
+    color: white;
+}
+.header-description{
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.5rem;
+    margin-top: -20px;
+}
+
+.shape{
+    font-family: Miama;
+    font-size: 4.875rem;
+    font-weight: 400;
+    color: white;
+}
+.header-btn1{
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+    border: none;
+    color: white;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+.header-btn2{
+    background: linear-gradient(130.00deg, rgba(17, 17, 17, 0.301),rgba(119, 119, 119, 0) 50%);
+    border: none;
+    border: 2px solid #fff;
+    border-radius: 42px;
+    color: white;
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 16px 40px 16px 40px;
+    margin: 0 14px;
+    margin-bottom: 30px;
+}
+.leftside1{
+    width: 50%;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#title1{
+    position: absolute;
+    margin-left: -150px;
+    padding: 10px 10px;
+    /* background: rgb(34,34,34); */
+    background: rgba(34,34,34,0.75);
+    border-radius: 12px;
+    margin-top: 160px;
+    border: none;
+}
+#title-heading{
+    color: white;
+    font-family: Inter;
+    font-size: 2.1rem;
+    font-weight: 900;
+}
+#title-headings{
+    color: white;
+    font-family: Inter;
+    font-size: 1.9rem;
+    font-weight: 900;
+    text-align: left;
+}
+.workout-videos{ 
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+}
+#title-second{
+    position: absolute;
+    padding: 5px 5px;
+    background: rgb(34,34,34); 
+    background: rgba(34,34,34,0.75);
+    border-radius: 12px;
+    margin-left: -380px;
+    margin-top: 470px;
+    border: none;
+}
+.video-tutorial{ 
+    font-family: Inter;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.65);
+    margin-left: 40px;
+    margin-bottom: -10px;
+}
+.fa-circle-play{
+    font-size: 30px;
+    margin-left: -5px;
+    margin-top: 10px;
+}
+main {
+    background: black;
+    margin: 0;
+    margin-top: -48px;
+}
+.main-seaction{
+}
+
+/*Habit */
+.main-container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.main-contant{
+    max-width: 850px;
+    margin: 0 auto;
+    text-align: center;
+}
+.main-contant > h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 48px;
+    font-weight: 900;
+    color: #ffffff;
+    padding-top: 100px;
+}
+.main-contant p{
+    font-family: "Poppins", sans-serif;
+    color: #5c5c5c;
+    font-size: 14px;
+font-weight: 400;
+    margin-top: -30px;
+}
+.skill-title{
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffffff;
+}
+.skill p{
+    margin-top: -6px;
+}
+.skill img{
+    border-radius: 200px;
+    width: 150px;
+    border: 3px solid #616161;
+}
+.habit{
+    display: flex;
+    margin: 0 auto;
+    gap: 15px;
+    margin-top: 50px;
+}
+.skill{
+    padding: 15px;
+    text-align: center;
+}
+
+/* Run */
+.run-section{
+    margin: 0 auto;
+    display: flex;
+    margin-top: 100px;
+}
+.run-container{
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    background: #2c2c2c;
+    border-radius: 20px;
+}
+.run-content{
+    width: 50%;
+    margin-left: 20px;
+}
+.join-now {
+    font-family: Inter;
+    background-color: #FD6E0A ;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 50px;
+}
+.run-img{
+    width: 50%;
+}
+.run-img img{
+    border-radius: 30px;
+    width: 80%;
+    height: 312px;
+    object-fit: none;
+    object-position: 66% 30%;
+    margin-left: 100px;
+
+}
+.run-content h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #fff;
+}
+.run-content p{
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #616161;
+    margin-top: -20px;
+    line-height: 1.3rem;
+}
+/* Training */
+
+.training-section{
+    margin: 0 auto;
+}
+.training-container{
+    text-align: left;
+    margin-left: 180px;
+}
+.training-container h3{
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: #fff;
+    margin-top: 100px;
+}
+.training-container p{
+    font-family: "Poppins", sans-serif;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: -25px;
+}
+.training-img{
+    margin: 0 auto;
+    margin: 50px;
+    margin-left: 200px;
+}
+.training-img > div{
+    display: flex;
+}
+
+.trainig-content{
+    display: flex;
+    margin: 0 auto;  
+}
+.trainig-content > div {
+    display: flex;  
+}
+.trainier-name-he{
+    position: absolute;
+    top: 2px;
+    left: 16px;
+    color: aqua;
+  }
+  .training-img0 {
+    width: 15%;
+
+  }
+#img-2{
+   width: 25%; 
+}
+
